@@ -1,0 +1,96 @@
+.cabecalho {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--preto);
+    transition: 0.6s;
+    width: 100vw;
+    position: fixed;
+    padding: 20px 100px;
+    /* POSITION FIXED para fazer o header fixo */
+    /* Alterar a classe "tabela-salgada" caso não quiser o header fixo */
+
+}
+
+.cabecalho.sticky {
+
+    padding: 1px 100px;
+    background: var(--preto);
+    justify-content: center;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 0 1em 1em 28em;
+}
+
+.imagem-pizza{
+
+    width: 9%;
+    padding: 2em 1em 1em 61%;
+    z-index: 10;
+}
+
+.delivery{
+
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+    font-family: roboto;
+    text-transform: uppercase;
+    margin: 5px 2.9% 0 0;
+}
+
+.palavras-titulo{
+
+    width: 100vw;
+    position: fixed;
+    padding: 1em 0 1em 0;
+}
+
+.hullemam{
+
+    width: 25%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 -15px 36%;
+}
+
+.pizzaria{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: var(--vermelho);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-right: 2%;
+}
+
+.categorias {
+
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    background-color: var(--vermelho);
+    margin: 0 0 -40px -200px;
+    padding: 1em;
+}
+
+.categorias-texto {
+
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+}

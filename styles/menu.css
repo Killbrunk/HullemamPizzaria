@@ -1,0 +1,167 @@
+.tabela-salgada{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 5em 5em 2em 5em;
+    padding-top: 17em;
+    /* Retirar o "paddding-top" caso o header não seja fixo */
+}
+
+.categoria-menu {
+
+    color: var(--amarelo);
+    font-family: var(--fonte-principal);
+    font-size: 26px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px var(--preto);
+}
+
+.container-pedacos{
+
+    display: flex;
+    gap: 10px;
+    padding-left: 27.8%;
+    align-items: center;
+    margin-top: -.5em;
+}
+
+.pedacos{
+
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 26px;
+    background: var(--degrade-vermelho);
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 5em;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px var(--preto);
+
+}
+
+.pizza-precos{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1em;
+}
+
+.pizza{
+
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    color: var(--branco);
+    text-shadow: 2px 2px 2px var(--preto);
+    border: solid 1px var(--preto);
+    border-radius: 25px;
+    background: var(--degrade-vermelho);
+    width: 300px;
+    padding: 10px 0 10px 20px;
+    text-transform: uppercase;
+}
+
+.container-precos{
+
+    display: flex;
+    gap: 10px;
+    margin-left: 6.4%;
+}
+
+.precos{
+
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 26px;
+    background: var(--degrade-verde);
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 5em;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px var(--preto);
+
+}
+
+.descricao-pizza{
+
+    margin: 0.5em 33em 2em 6.8em;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+}
+
+.tabela-doce{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 5em 4.1em 2em 5em;
+}
+
+.container-franguinho{
+
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    margin: 0 7em 0 0;
+}
+
+.tabela-franguinho{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    color: var(--branco);
+    text-shadow: 2px 2px 2px var(--preto);
+    border: solid 1px var(--preto);
+    border-radius: 25px;
+    background: var(--degrade-verde);
+    width: 300px;
+    padding: 10px 0 10px 10px;
+    text-transform: uppercase;
+}
+
+.franguinho, .crocante{
+
+    display:flex ;
+    justify-content: center;
+}
+
+.pesos{
+
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    color: var(--branco);
+    text-shadow: 2px 2px 2px var(--preto);
+    border: solid 1px var(--preto);
+    border-radius: 25px;
+    background: var(--degrade-vermelho);
+    width: 210px;
+    padding: 10px 10px 10px 20px;
+    margin:  0 -1em 0 -7.1em;
+    text-transform: uppercase;
+}
+
+.acompanhamentos-container{
+    display:flex ;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+html {
+
+    scroll-behavior: smooth;
+}

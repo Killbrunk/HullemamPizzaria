@@ -1,0 +1,13 @@
+@import url(header.css);
+@import url(menu.css);
+
+
+:root {
+    --fonte-principal: "Roboto";
+    --preto: #000000;
+    --branco: #ffffff;
+    --vermelho: #FF0000;    
+    --amarelo: #ffff00;
+    --degrade-vermelho: linear-gradient(0deg,#920000, #ff0000, #ff0000, #ff0000);
+    --degrade-verde: linear-gradient(0deg, #006132, #009652, #0ca35e, #0ca35e);
+}
